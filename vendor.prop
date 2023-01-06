@@ -137,6 +137,7 @@ ro.vendor.mtk_wapi_support=1
 ro.vendor.mtk_wappush_support=1
 
 # Graphics
+debug.hwui.skia_atrace_enabled=false
 debug.renderengine.backend=skiaglthreaded
 ro.config.avoid_gfx_accel=true
 ro.hardware.egl=meow
