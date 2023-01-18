@@ -55,6 +55,7 @@ qemu.hw.mainkeys=0
 
 # Kernel
 ro.kernel.zio=38,108,105,16
+ro.iorapd.enable=false
 sys.ipo.disable=1
 sys.ipo.pwrdncap=2
 
