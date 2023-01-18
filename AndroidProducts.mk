@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_begonia.mk
+    $(LOCAL_DIR)/aosp_begonia.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_begonia-user \
+    aosp_begonia-userdebug \
+    aosp_begonia-eng

@@ -1,6 +1,6 @@
 [
   {
-    "repository" : "android_kernel_xiaomi_mt6785",
+    "repository" : "kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785",
   },
   {
@@ -12,7 +12,7 @@
     "target_path": "vendor/redmi/begonia-ims"
   },
   {
-    "repository" : "android_packages_apps_MtkFMRadio",
+    "repository" : "packages_apps_MtkFMRadio",
     "target_path": "packages/apps/MtkFMRadio",
   }
 ]
