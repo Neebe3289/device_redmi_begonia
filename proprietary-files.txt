@@ -1242,7 +1242,7 @@ system_ext/lib64/libarmnn_ndk.mtk.so
 system_ext/lib64/libcmdl_ndk.mtk.so
 system_ext/lib64/libdrmmtkutil.so
 system_ext/lib64/libdrmmtkwhitelist.so
-system_ext/lib64/libfmjni.so
+-system_ext/lib64/libfmjni.so:system/lib64/libfmjni.so
 system_ext/lib64/libjpgt.so
 system_ext/lib64/liblept.so
 system_ext/lib64/libneuron_opencv_delegate.mtk.so
