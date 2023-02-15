@@ -272,7 +272,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power-V1-ndk.vendor
 
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.example
+    android.hardware.power-service.mediatek-libperfmgr
 
 PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
@@ -334,6 +334,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel \
     hardware/mediatek
 
 # Tethering
